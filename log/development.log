@@ -1,0 +1,397 @@
+Started GET "/" for ::1 at 2020-08-21 22:52:41 -0400
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/heather/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.0ms | Allocations: 480)
+Completed 200 OK in 20ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 2737)
+
+
+Started GET "/kids/new" for ::1 at 2020-08-21 22:52:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/kids/new"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/kids" for ::1 at 2020-08-21 22:52:53 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/kids"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/kids" for ::1 at 2020-08-21 22:53:50 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by KidsController#index as HTML
+  Rendering kids/index.html.erb within layouts/application
+  Rendered kids/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1594)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2717)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     9: 
+    10:   <tbody>
+    11:   
+    12:       <% @kids.each do |kid| %>
+    13:       <tr>
+    14:           <td> <h2> <%= kid.name%></td> </h2>
+    15:           <td><h1>}</h1><td>
+  
+app/views/kids/index.html.erb:12
+Started GET "/kids/new" for ::1 at 2020-08-21 22:53:58 -0400
+Processing by KidsController#new as HTML
+  Rendering kids/new.html.erb within layouts/application
+  Rendered kids/_form.html.erb (Duration: 15.9ms | Allocations: 4714)
+  Rendered kids/new.html.erb within layouts/application (Duration: 17.6ms | Allocations: 5100)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.4
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 968ms (ActiveRecord: 0.7ms | Allocations: 25686)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/heather/Development/code/Witty/StrangerDanger/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/kids/new" for ::1 at 2020-08-22 09:49:20 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by KidsController#new as HTML
+  Rendering kids/new.html.erb within layouts/application
+  Rendered kids/_form.html.erb (Duration: 9.0ms | Allocations: 3421)
+  Rendered kids/new.html.erb within layouts/application (Duration: 11.7ms | Allocations: 4583)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.4
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1064ms (ActiveRecord: 0.6ms | Allocations: 18400)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/heather/Development/code/Witty/StrangerDanger/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/kids/new" for ::1 at 2020-08-22 09:52:34 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by KidsController#new as HTML
+  Rendering kids/new.html.erb within layouts/application
+  Rendered kids/_form.html.erb (Duration: 11.8ms | Allocations: 3328)
+  Rendered kids/new.html.erb within layouts/application (Duration: 14.1ms | Allocations: 4489)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.4
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1016ms (ActiveRecord: 0.6ms | Allocations: 18255)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/heather/Development/code/Witty/StrangerDanger/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/kids/new" for ::1 at 2020-08-22 09:55:00 -0400
+Processing by KidsController#new as HTML
+  Rendering kids/new.html.erb within layouts/application
+  Rendered kids/_form.html.erb (Duration: 2.0ms | Allocations: 748)
+  Rendered kids/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 850)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.4
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1548ms (ActiveRecord: 0.0ms | Allocations: 6228)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/heather/Development/code/Witty/StrangerDanger/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/kids/new" for ::1 at 2020-08-22 10:01:31 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by KidsController#new as HTML
+  Rendering kids/new.html.erb within layouts/application
+  Rendered kids/_form.html.erb (Duration: 1.4ms | Allocations: 719)
+  Rendered kids/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 820)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.4
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1533ms (ActiveRecord: 0.0ms | Allocations: 6150)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/heather/Development/code/Witty/StrangerDanger/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/kids/new" for ::1 at 2020-08-22 10:01:46 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by KidsController#new as HTML
+  Rendering kids/new.html.erb within layouts/application
+  Rendered kids/_form.html.erb (Duration: 6.7ms | Allocations: 3349)
+  Rendered kids/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 4235)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.4
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 996ms (ActiveRecord: 0.6ms | Allocations: 18231)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/heather/Development/code/Witty/StrangerDanger/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/kids/new" for ::1 at 2020-08-22 10:02:58 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by KidsController#new as HTML
+  Rendering kids/new.html.erb within layouts/application
+  Rendered kids/_form.html.erb (Duration: 12.8ms | Allocations: 2557)
+  Rendered kids/new.html.erb within layouts/application (Duration: 20.9ms | Allocations: 4663)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/heather/Development/code/Witty/StrangerDanger/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.1
+Time: 1474ms
+Built at: 08/22/2020 10:03:01 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 500 Internal Server Error in 3252ms (ActiveRecord: 0.7ms | Allocations: 18378)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/heather/Development/code/Witty/StrangerDanger/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/kids/new" for ::1 at 2020-08-22 10:06:13 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by KidsController#new as HTML
+  Rendering kids/new.html.erb within layouts/application
+  Rendered kids/_form.html.erb (Duration: 11.4ms | Allocations: 3350)
+  Rendered kids/new.html.erb within layouts/application (Duration: 13.6ms | Allocations: 4439)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 31.7ms | ActiveRecord: 0.9ms | Allocations: 16070)
+
+
+Started GET "/kids/new" for ::1 at 2020-08-22 10:06:13 -0400
+Processing by KidsController#new as HTML
+  Rendering kids/new.html.erb within layouts/application
+  Rendered kids/_form.html.erb (Duration: 1.7ms | Allocations: 713)
+  Rendered kids/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4373)
+
+
+Started GET "/kids/new" for ::1 at 2020-08-22 10:12:52 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by KidsController#new as HTML
+  Rendering kids/new.html.erb within layouts/application
+  Rendered kids/_form.html.erb (Duration: 4.5ms | Allocations: 2598)
+  Rendered kids/new.html.erb within layouts/application (Duration: 5.8ms | Allocations: 3112)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 15.6ms | ActiveRecord: 0.5ms | Allocations: 14765)
+
+

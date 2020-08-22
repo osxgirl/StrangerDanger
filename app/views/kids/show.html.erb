@@ -1,0 +1,10 @@
+<h1>Name: <%= @kid.name %></h1>
+<h3>Saying: <%= @kid.saying %></h3>
+
+<%= form_tag kid_path(@kid.id), method: "delete" do %>
+  <%= submit_tag "Delete #{@kid.name}" %>
+<% end %>
+
+
+<%= link_to 'Edit', edit_kid_path(@kid) %> •
+<%= link_to 'Back',kids_path %> •

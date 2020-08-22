@@ -1,0 +1,34 @@
+<h1>Kid</h1>
+
+<table>
+<thead>
+  <tr>
+    <th></th>
+  </tr>
+</thead>
+
+  <tbody>
+  
+      <% @kids.each do |kid| %>
+      <tr>
+          <td> <h2> <%= kid.name%></td> </h2>
+          <td><h1>}</h1><td>
+          <tr></tr>
+          <td> <h4> <%= link_to 'Show', kid %></td> </h4>
+          <tr></tr>
+          <td><h4><%= link_to 'Edit', edit_kid_path(kid) %></h4></td>
+          <tr></tr>
+          <td><h4><%= link_to 'Destroy', kid, method: :delete, data: { confirm: 'Are you sure?' } %></h4</td>
+        </tr>
+        
+      <% end %>
+    
+      
+      
+    </tbody>
+  </table>
+<br></br>
+<%= link_to 'New Kid', new_kid_path %> <br>
+<br>
+
+👦🏽
