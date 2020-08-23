@@ -4,7 +4,7 @@ class KidsController < ApplicationController
   end
     
   def show
-    @kidd = Kid.find(params[:id])
+    @kid = Kid.find(params[:id])
   end
 
 
